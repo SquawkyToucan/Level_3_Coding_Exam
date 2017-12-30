@@ -12,6 +12,8 @@ public class HashMapCalculator {
 				//It has the key
 				if(hashmap1.get(key[i]).equals(hashmap2.get(key[i]))) {
 					total++;
+					System.out.println(key[i]);
+					System.out.println(hashmap1.get(key[i]));
 				}
 			}
 		}
